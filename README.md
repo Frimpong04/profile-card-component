@@ -1,3 +1,3 @@
 # profile-card-component
-# A front end newbie challenge
+# A front end mentor newbie challenge
 # Aim is to test or enhance layout skills
