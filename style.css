@@ -26,3 +26,74 @@ body {
     background-repeat:no-repeat, no-repeat ;
     background-size: 90rem,90rem;
 }
+
+/* CARD STYLES */
+.container {
+    width:350px;
+    border-radius:2rem;
+    background-color:white;
+}
+
+.image-container {
+    background-color:var(--background-color);
+    position:relative;
+    background-image:url("assets/images/bg-pattern-card.svg");
+    border-radius:2rem 2rem 0 0;
+    height: 10rem;
+}
+.main-image {
+    width:7rem;
+    height:7rem;
+    border-radius:50%;
+    outline:3px solid white;
+    position:absolute;
+    top:65%;
+    left:50%;
+    transform:translateX(-50%);
+}
+
+.title {
+    padding:5rem 0;
+    text-align:center;
+}
+
+.age {
+    color:var(--subheading-text-color);
+    font-weight:300;
+}
+.title h1 {
+    color:var(--main-text-color);
+    font-size:2.5rem;
+}
+.title p {
+    margin-top:1rem;
+    color:var(--subheading-text-color);
+    font-size:1.8rem;
+}
+
+/* VIEWS STYLES */
+.views {
+    padding-top:1rem;
+    padding-bottom:1rem;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.view-item {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding:1rem;
+}
+
+.view-item .stats {
+    font-weight: 700;
+    font-size:2rem;
+    color:var(--main-text-color);
+}
+
+.view-item .desc {
+    color:var(--subheading-text-color);
+    font-size:1.4rem;
+}
