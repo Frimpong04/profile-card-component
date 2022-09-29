@@ -1,0 +1,16 @@
+/* GLOBAL STYLES */
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size:62.5%;
+    font-family:"Kumbh Sans", sans-serif;
+    --main-text-color: hsl(229, 23%, 23%);
+    --subheading-text-color: hsl(227, 10%, 46%);
+    --line-background-color:hsl(0, 0%, 59%);
+    --background-color: hsl(185, 75%, 39%);
+}
+
