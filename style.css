@@ -97,3 +97,15 @@ body {
     color:var(--subheading-text-color);
     font-size:1.4rem;
 }
+
+/* MEDIA QUERY */
+@media only screen and (max-width: 375px) {
+    .container {
+        width:80%;
+
+    }
+
+    html {
+        font-size:45%;
+    }
+}
