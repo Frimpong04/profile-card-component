@@ -22,7 +22,7 @@ body {
     min-height:100vh;
     background-color:var(--background-color);
     background-image:url("./assets/images/bg-pattern-top.svg") , url("./assets/images/bg-pattern-bottom.svg");
-    background-position: top 300% left -30%, right -20% bottom 300%;
+    background-position: top 400% left -40%, right -30% bottom 400%;
     background-repeat:no-repeat, no-repeat ;
     background-size: 90rem,90rem;
 }
@@ -41,11 +41,11 @@ body {
     position:relative;
     background-image:url("assets/images/bg-pattern-card.svg");
     border-radius:2rem 2rem 0 0;
-    height: 10rem;
+    height: 15rem;
 }
 .main-image {
-    width:7rem;
-    height:7rem;
+    width:10rem;
+    height:10rem;
     border-radius:50%;
     outline:3px solid white;
     position:absolute;
@@ -55,7 +55,8 @@ body {
 }
 
 .title {
-    padding:5rem 0;
+    padding-top:6rem;
+    padding-bottom:4rem;
     text-align:center;
 }
 
@@ -75,8 +76,8 @@ body {
 
 /* VIEWS STYLES */
 .views {
-    padding-top:1rem;
-    padding-bottom:1rem;
+    padding-top:2rem;
+    padding-bottom:2rem;
     display:flex;
     justify-content:space-around;
     align-items: center;
@@ -104,10 +105,16 @@ body {
 @media only screen and (max-width: 375px) {
     .container {
         width:80%;
-
     }
 
+    .title {
+        padding:7rem 0;
+    }
+    .main-image {
+        width:8rem;
+        height:8rem;
+    }
     html {
-        font-size:45%;
+        font-size:50%;
     }
 }
