@@ -22,7 +22,7 @@ body {
     min-height:100vh;
     background-color:var(--background-color);
     background-image:url("./assets/images/bg-pattern-top.svg") , url("./assets/images/bg-pattern-bottom.svg");
-    background-position: top 400% left -40%, right -30% bottom 400%;
+    background-position: top -400px left -200px, right -150px bottom -500px;
     background-repeat:no-repeat, no-repeat ;
     background-size: 90rem,90rem;
 }
