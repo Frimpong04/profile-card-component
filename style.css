@@ -115,6 +115,11 @@ body {
         font-size:45%;
     }
 
+    body {
+        background-position: top -150px left -150px, right -200px bottom -200px;
+        background-size: 93%,93%;
+    }
+
     .container {
         width:80%;
     }
@@ -123,4 +128,6 @@ body {
         padding-left:2rem;
         padding-right:2rem;
     }
+
+
 }
