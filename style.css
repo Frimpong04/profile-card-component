@@ -17,21 +17,28 @@ html {
 /* BODY STYLES */
 body {
     display:flex;
+    /* position:relative; */
+    /* flex-direction:column; */
     justify-content: center;
     align-items: center;
-    min-height:100vh;
+    height:100vh;
+    overflow:hidden;
     background-color:var(--background-color);
     background-image:url("./assets/images/bg-pattern-top.svg") , url("./assets/images/bg-pattern-bottom.svg");
     background-position: top -400px left -200px, right -150px bottom -500px;
     background-repeat:no-repeat, no-repeat ;
-    background-size: 90rem,90rem;
+    background-size: 63%,63%;
 }
+
+/* BACKGROUND IMAGES STYLES */
 
 /* CARD STYLES */
 .container {
     width:350px;
     border-radius:2rem;
     background-color:white;
+    position:relative;
+    z-index:3;
     /* box-shadow:8px 16px 32px 8px rgba(0,0,0,0.2); */
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
@@ -47,7 +54,7 @@ body {
     width:10rem;
     height:10rem;
     border-radius:50%;
-    outline:3px solid white;
+    outline:4px solid white;
     position:absolute;
     top:65%;
     left:50%;
@@ -103,12 +110,13 @@ body {
 
 /* MEDIA QUERY */
 @media only screen and (max-width: 375px) {
-    .container {
-        width:80%;
-    }
 
     html {
-        font-size:50%;
+        font-size:45%;
+    }
+
+    .container {
+        width:80%;
     }
 
     .views {
